@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영어 단어 학습</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="menu-container">
+        <button id="quiz-menu-btn" class="menu-btn">퀴즈</button>
+        <button id="vocab-menu-btn" class="menu-btn">영어 단어장</button>
+    </div>
+    <div id="quiz-container" class="hide">
+        <h1>영어 단어 퀴즈</h1>
+        <div id="question-container" class="hide">
+            <p id="question"></p>
+            <div id="answer-buttons" class="btn-container">
+                <button class="btn">답변 1</button>
+                <button class="btn">답변 2</button>
+                <button class="btn">답변 3</button>
+                <button class="btn">답변 4</button>
+            </div>
+        </div>
+        <div id="result-container" class="hide">
+            <h2>퀴즈 완료!</h2>
+            <p id="score"></p>
+            <button id="restart-btn" class="btn">다시 시작</button>
+            <button id="quiz-menu-btn-result" class="btn">메뉴로 돌아가기</button>
+        </div>
+        <button id="next-btn" class="next-btn btn hide">다음</button>
+        <button id="start-btn" class="start-btn btn">퀴즈 시작</button>
+    </div>
+    <div id="vocab-container" class="hide">
+        <h1>영어 단어장</h1>
+        <div id="vocab-list">
+            <!-- 단어장 내용이 여기에 추가됩니다 -->
+        </div>
+        <button id="vocab-menu-btn-back" class="btn">메뉴로 돌아가기</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

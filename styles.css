@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+#menu-container {
+    margin-bottom: 20px;
+}
+
+.menu-btn {
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.menu-btn:hover {
+    background: #0056b3;
+}
+
+#quiz-container, #vocab-container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.next-btn {
+    margin-top: 20px;
+}
+
+.correct {
+    background-color: #4CAF50 !important; /* 녹색 */
+}
+
+.wrong {
+    background-color: #f44336 !important; /* 빨강색 */
+}
+
+.hide {
+    display: none;
+}
+
+#vocab-list {
+    text-align: left;
+    padding-left: 10px;
+}
+
+#vocab-list p {
+    margin: 5px 0;
+}
